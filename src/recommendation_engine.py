@@ -2,7 +2,6 @@ import os
 import numpy as np
 import pandas as pd
 from sklearn.metrics.pairwise import cosine_similarity
-from ibm_watsonx_ai import Credentials
 from langchain_ibm import WatsonxEmbeddings
 from ibm_watsonx_ai.foundation_models.utils.enums import EmbeddingTypes
 from config.config import Config
