@@ -106,13 +106,3 @@ class PhoneRecommendationEngine:
     def get_dataset(self):
         df = pd.read_csv(self.data_file)
         return df
-# # Example usage
-# input_payload = {
-#     "threshold_limit": 0.75,
-#     "recommendations_count": 5,
-#     "input_text": "Storage128 GBRAM8"
-# }
-
-# recommendation_engine = PhoneRecommendationEngine(input_payload)
-# response = recommendation_engine.calculate_similarity(input_payload['input_text'])
-# print(response)
